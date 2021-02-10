@@ -35,7 +35,7 @@ print(len(arr))
 for x in arr:
     payloadact = {
         'name': x,
-        'description': 'Traccia caricata da Endomondo attraverso script',
+        'description': 'Activity uploaded from TCX file using a custom script https://github.com/pierpa71/StravImport'  ,
         'trainer': '0',
         'commute': '0',
         'data_type': 'tcx',
